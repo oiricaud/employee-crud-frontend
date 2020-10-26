@@ -1,5 +1,7 @@
 # EmployeeCrudFrontend
 
+[!home](./src/home.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 ## Development server
