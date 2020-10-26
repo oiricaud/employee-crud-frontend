@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {EmployeeService} from "./service/employee.service";
 
 @Component({
@@ -7,32 +7,36 @@ import {EmployeeService} from "./service/employee.service";
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
-  displayedColumns: string[] = ['position', 'firstName', 'weight', 'symbol'];
+export class AppComponent implements OnInit {
+  displayedColumns: string[] = ['id', 'firstName', 'lastName', 'hireDate', 'role', 'jokes'];
 
-  dataSource = ELEMENT_DATA;
+  dataSource = EMPLOYEE_DATA;
   title = 'employee-crud-frontend';
   constructor(private employeeService: EmployeeService) {
-    this.getEmployees();
-    console.table(ELEMENT_DATA);
+    console.table(EMPLOYEE_DATA);
   }
-
-  getEmployees(): void {
+  ngOnInit() {
+    this.refresh();
+  }
+  refresh() {
     this.employeeService.getAllEmployees().subscribe(result => {
       // Read the result field from the JSON response.
-      console.table(result.employees);
-      console.log('employees ' + JSON.stringify(result.employees));
-      return result.employees;
+      console.table(EMPLOYEE_DATA);
+      console.table(result.employees.length);
+      for (let i = 0; i < result.employees.length; i++) {
+        EMPLOYEE_DATA.push(result.employees[i]);
+      }
+      this.dataSource = [...this.dataSource]; // refreshes table
     });
   }
 }
 
-export interface PeriodicElement {
+export interface EmployeeInterface {
+  id: number;
   firstName: string;
-  position: number;
-  weight: number;
-  symbol: string;
+  lastName: string;
+  hireDate: string;
+  role: string;
+  jokes: [any]
 }
-const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, firstName: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-];
+let EMPLOYEE_DATA: EmployeeInterface[] = [];
