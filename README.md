@@ -1,6 +1,7 @@
 # EmployeeCrudFrontend
 ![home](src/home_v2.png)
 
+To run this project you must run the back end which is located at https://github.com/oiricaud/employee-crud-backend
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 ## Development server
