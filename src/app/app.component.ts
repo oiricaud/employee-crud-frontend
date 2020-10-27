@@ -1,14 +1,23 @@
 import {Component, OnInit} from '@angular/core';
 import {EmployeeService} from "./service/employee.service";
+import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ]
 })
 
 export class AppComponent implements OnInit {
-  displayedColumns: string[] = ['id', 'firstName', 'lastName', 'hireDate', 'role', 'jokes'];
+  columnsToDisplay = ['id', 'firstName', 'lastName', 'hireDate', 'role'];
+  expandedElement: EmployeeInterface | null;
 
   dataSource = EMPLOYEE_DATA;
   title = 'employee-crud-frontend';

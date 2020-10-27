@@ -49,6 +49,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -58,8 +59,10 @@ import {OverlayModule} from '@angular/cdk/overlay';
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
+        BrowserModule,
         MatTableModule,
         HttpClientModule,
+        FormsModule,
         A11yModule,
         ClipboardModule,
         CdkStepperModule,
@@ -87,6 +90,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
         MatNativeDateModule,
         MatPaginatorModule,
         MatProgressBarModule,
+        ReactiveFormsModule,
         MatProgressSpinnerModule,
         MatRadioModule,
         MatRippleModule,
@@ -109,3 +113,4 @@ import {OverlayModule} from '@angular/cdk/overlay';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
