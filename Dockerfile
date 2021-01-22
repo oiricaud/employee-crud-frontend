@@ -1,12 +1,15 @@
-# Stage 1
-FROM node:10-alpine as build-step
-RUN mkdir -p /app
-WORKDIR /app
-COPY package.json /app
-RUN npm install
-COPY . /app
-RUN npm run build --prod
 
-# Stage 2
-FROM nginx:1.17.1-alpine
-COPY --from=build-step /app/dist/employee-crud-frontend /usr/share/nginx/html
+FROM nginx:1.13.3-alpine
+
+## Copy our nginx config
+COPY dist/employee-crud-frontend/ /etc/nginx/conf.d/
+
+## Remove default nginx website
+RUN rm -rf /usr/share/nginx/html/*
+
+## copy over the artifacts in dist folder to default nginx public folder
+COPY dist/employee-crud-frontend /usr/share/nginx/html
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]
