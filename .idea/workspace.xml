@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af2adabd-c893-4fea-8594-6f526e3caf89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/3rdpartylicenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/main-es2015.2c0b4c5fbf36bf9cb63c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/main-es5.2c0b4c5fbf36bf9cb63c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/polyfills-es2015.f332a089ad1600448873.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/polyfills-es5.177e85a9724683782539.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/runtime-es2015.0dae8cbc97194c7caed4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/runtime-es5.0dae8cbc97194c7caed4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/styles.6d5ecad3231b7aaa49dd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx-custom.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jOfFwjtD9NBv3EX71ItvFsUFA3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af2adabd-c893-4fea-8594-6f526e3caf89" name="Default Changelist" comment="" />
+      <created>1603679958249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603679958249</updated>
+      <workItem from="1603679959823" duration="6103000" />
+      <workItem from="1603687075996" duration="8152000" />
+      <workItem from="1603912982152" duration="1481000" />
+      <workItem from="1604000863603" duration="397000" />
+      <workItem from="1611177602990" duration="20718000" />
+    </task>
+    <task id="LOCAL-00001" summary="added Angular boilerplate">
+      <created>1603681858877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603681858877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added material table">
+      <created>1603685218734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603685218734</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed parent directory">
+      <created>1603686993140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603686993140</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed parent directory">
+      <created>1603687166099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603687166099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Table is popuplated based on backend results">
+      <created>1603726907801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603726907801</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated README.md">
+      <created>1603727030126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603727030126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated README.md">
+      <created>1603727069423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603727069423</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added home.png">
+      <created>1603727087082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603727087082</updated>
+    </task>
+    <task id="LOCAL-00009" summary="User is now able to expand table to view more employee information such as favorite jokes and favorite quotes">
+      <created>1603760634830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603760634830</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated README.md">
+      <created>1603761035159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603761035159</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated README.md">
+      <created>1603761573309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603761573309</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Dockerfile .dockerignore and updated README.md file.">
+      <created>1611181075719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611181075719</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Angular boilerplate" />
+    <MESSAGE value="added material table" />
+    <MESSAGE value="removed parent directory" />
+    <MESSAGE value="Table is popuplated based on backend results" />
+    <MESSAGE value="added home.png" />
+    <MESSAGE value="User is now able to expand table to view more employee information such as favorite jokes and favorite quotes" />
+    <MESSAGE value="updated README.md" />
+    <MESSAGE value="Added Dockerfile .dockerignore and updated README.md file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Dockerfile .dockerignore and updated README.md file." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1250" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611177841922">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1250" y="354" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611177841922" />
+    <state x="-1500" y="90" key="CommitChangelistDialog2" timestamp="1611181075273">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1500" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603761573049" />
+    <state x="420" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603687155189" />
+    <state x="-1500" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.23.1920.1057@-1920.0.1920.1080" timestamp="1603761034579" />
+    <state x="-1500" y="90" key="CommitChangelistDialog2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611181075273" />
+    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2" timestamp="1611181076973">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1360" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603761574535" />
+    <state x="560" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603687168234" />
+    <state x="-1360" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.23.1920.1057@-1920.0.1920.1080" timestamp="1603761037462" />
+    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611181076973" />
+    <state x="-1820" y="102" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611274177016">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1820" y="79" width="1720" height="900" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603726800852" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1080/0.23.1920.1057@0.23.1920.1057" timestamp="1603685081624" />
+    <state x="-1820" y="102" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274177016" />
+    <state x="-1538" y="298" width="595" height="522" key="find.popup" timestamp="1611274771488">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1538" y="279" width="595" height="522" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1611268538976" />
+    <state x="-1538" y="298" width="595" height="522" key="find.popup/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274771488" />
+    <state x="625" y="237" key="run.anything.popup" timestamp="1603683652216">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="237" key="run.anything.popup/-1920.0.1920.1080/0.23.1920.1057@0.23.1920.1057" timestamp="1603683652216" />
+    <state x="-1295" y="260" width="670" height="661" key="search.everywhere.popup" timestamp="1611274774620">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1295" y="241" width="670" height="676" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603727008117" />
+    <state x="-1295" y="260" width="670" height="661" key="search.everywhere.popup/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274774620" />
+  </component>
+</project>
