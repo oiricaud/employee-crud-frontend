@@ -37,3 +37,4 @@ To create a container and run this image instance run the following command:
 `docker run -d -it -p 4200:80/tcp --name employee-crud-frontend yellocabins/employee-crud-frontend:v0.0.1`
 
 Now you can go to `http://localhost:4200` on your browser.
+
