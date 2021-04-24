@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="af2adabd-c893-4fea-8594-6f526e3caf89" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/3rdpartylicenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/main-es2015.2c0b4c5fbf36bf9cb63c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/main-es5.2c0b4c5fbf36bf9cb63c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/polyfills-es2015.f332a089ad1600448873.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/polyfills-es5.177e85a9724683782539.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/runtime-es2015.0dae8cbc97194c7caed4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/runtime-es5.0dae8cbc97194c7caed4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/employee-crud-frontend/styles.6d5ecad3231b7aaa49dd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-custom.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +29,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -52,6 +44,36 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Angular Application">
+    <configuration name="Tests (employee-crud-frontend)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (employee-crud-frontend)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,7 +89,8 @@
       <workItem from="1603687075996" duration="8152000" />
       <workItem from="1603912982152" duration="1481000" />
       <workItem from="1604000863603" duration="397000" />
-      <workItem from="1611177602990" duration="20718000" />
+      <workItem from="1611177602990" duration="21902000" />
+      <workItem from="1612368318030" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="added Angular boilerplate">
       <created>1603681858877</created>
@@ -153,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611181075719</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new version of Dockerfile to v0.1.4">
+      <created>1611355249238</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611355249238</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,46 +198,42 @@
     <MESSAGE value="User is now able to expand table to view more employee information such as favorite jokes and favorite quotes" />
     <MESSAGE value="updated README.md" />
     <MESSAGE value="Added Dockerfile .dockerignore and updated README.md file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dockerfile .dockerignore and updated README.md file." />
+    <MESSAGE value="new version of Dockerfile to v0.1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version of Dockerfile to v0.1.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1250" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611177841922">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1250" y="354" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611177841922" />
-    <state x="-1500" y="90" key="CommitChangelistDialog2" timestamp="1611181075273">
+    <state x="-1546" y="63" key="CommitChangelistDialog2" timestamp="1611355248912">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1500" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603761573049" />
-    <state x="420" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603687155189" />
     <state x="-1500" y="70" key="CommitChangelistDialog2/-1920.0.1920.1080/0.23.1920.1057@-1920.0.1920.1080" timestamp="1603761034579" />
-    <state x="-1500" y="90" key="CommitChangelistDialog2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611181075273" />
-    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2" timestamp="1611181076973">
+    <state x="-1546" y="63" key="CommitChangelistDialog2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611355248912" />
+    <state x="-1338" y="170" key="NewModule_or_Project.wizard" timestamp="1612368349748">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1338" y="170" key="NewModule_or_Project.wizard/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1612368349748" />
+    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2" timestamp="1611355252506">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603761574535" />
-    <state x="560" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603687168234" />
     <state x="-1360" y="276" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.23.1920.1057@-1920.0.1920.1080" timestamp="1603761037462" />
-    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611181076973" />
+    <state x="-1360" y="295" key="Vcs.Push.Dialog.v2/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611355252506" />
     <state x="-1820" y="102" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611274177016">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1820" y="79" width="1720" height="900" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603726800852" />
-    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1080/0.23.1920.1057@0.23.1920.1057" timestamp="1603685081624" />
     <state x="-1820" y="102" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274177016" />
     <state x="-1538" y="298" width="595" height="522" key="find.popup" timestamp="1611274771488">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1538" y="279" width="595" height="522" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1611268538976" />
     <state x="-1538" y="298" width="595" height="522" key="find.popup/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274771488" />
-    <state x="625" y="237" key="run.anything.popup" timestamp="1603683652216">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="625" y="237" key="run.anything.popup/-1920.0.1920.1080/0.23.1920.1057@0.23.1920.1057" timestamp="1603683652216" />
     <state x="-1295" y="260" width="670" height="661" key="search.everywhere.popup" timestamp="1611274774620">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1295" y="241" width="670" height="676" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1920.1080@-1920.0.1920.1080" timestamp="1603727008117" />
     <state x="-1295" y="260" width="670" height="661" key="search.everywhere.popup/0.25.1920.1055/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1611274774620" />
   </component>
 </project>
