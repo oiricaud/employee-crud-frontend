@@ -38,3 +38,6 @@ To create a container and run this image instance run the following command:
 
 Now you can go to `http://localhost:4200` on your browser.
 
+[![Heroku CI Status](https://car-meetup.herokuapp.com/last.svg)](https://dashboard.heroku.com/pipelines/77cee7cb-6275-4b15-98f3-58cc9a9d2f62/tests)
+
+
